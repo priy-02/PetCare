@@ -1,16 +1,112 @@
-# React + Vite
+# 🐾 PetCare — Pet Supplies & Appointment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PetCare is a modern **frontend web application** built with React and Redux Toolkit. It provides pet owners with a convenient platform to browse pet supplies, manage their pets, explore veterinarians, and book veterinary appointments.
 
-Currently, two official plugins are available:
+The project is designed to demonstrate practical **React, Redux, React Router, HTML, and CSS concepts** through a real-world application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+PetCare brings essential pet-care services into one simple and user-friendly platform.
 
-## Expanding the ESLint configuration
+Users can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 Explore the PetCare home page
+- 🛍️ Browse pet supplies
+- 🔎 Search and filter products
+- 🛒 Add products to cart
+- ❤️ Manage favorite products
+- 🐶 Add and manage pet profiles
+- 👨‍⚕️ Browse veterinarians
+- 📅 Book veterinary appointments
+- 📋 View upcoming appointments
+- 👤 Manage their user profile
+- 📊 View a personalized dashboard
+
+> **Note:** This is currently a **frontend-only project**. Product, pet, user, and appointment data are handled using local/mock data. No backend or database is used.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **HTML5**
+- **CSS3**
+
+### State Management
+
+- **Redux Toolkit**
+- **React Redux**
+
+### Routing
+
+- **React Router DOM**
+
+### Development Tools
+
+- **Vite**
+- **Git**
+- **GitHub**
+- **VS Code**
+
+---
+
+## 📂 Project Structure
+
+```text
+petcare/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── DoctorCard.jsx
+│   │   ├── PetCard.jsx
+│   │   ├── AppointmentCard.jsx
+│   │   └── Sidebar.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Shop.jsx
+│   │   ├── ProductDetails.jsx
+│   │   ├── Doctors.jsx
+│   │   ├── Appointments.jsx
+│   │   ├── BookAppointment.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── MyPets.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Login.jsx
+│   │   └── Register.jsx
+│   │
+│   ├── redux/
+│   │   ├── store.js
+│   │   │
+│   │   └── slices/
+│   │       ├── authSlice.js
+│   │       ├── cartSlice.js
+│   │       ├── petSlice.js
+│   │       └── appointmentSlice.js
+│   │
+│   ├── data/
+│   │   ├── products.js
+│   │   ├── doctors.js
+│   │   └── pets.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
