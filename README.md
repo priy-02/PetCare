@@ -10,7 +10,7 @@ The application is built using **React, Redux Toolkit, React Router, HTML, and C
 
 ### Live Application:
 
-https://YOUR-DEPLOYMENT-LINK
+https://pet-care-phi-eight.vercel.app/
 
 ### GitHub Repository:
 
